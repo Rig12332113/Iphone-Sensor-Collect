@@ -29,9 +29,22 @@
 		B50903BE2E3F553100B0C58C /* sensorCollectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = sensorCollectUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		B50904052E3FAA4B00B0C58C /* Exceptions for "sensorCollect" folder in "sensorCollect" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = B50903A62E3F552C00B0C58C /* sensorCollect */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
 /* Begin PBXFileSystemSynchronizedRootGroup section */
 		B50903A92E3F552C00B0C58C /* sensorCollect */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				B50904052E3FAA4B00B0C58C /* Exceptions for "sensorCollect" folder in "sensorCollect" target */,
+			);
 			path = sensorCollect;
 			sourceTree = "<group>";
 		};
@@ -395,8 +408,12 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = WZJ5H2T2KL;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = sensorCollect/Info.plist;
+				INFOPLIST_KEY_NSCameraUsageDescription = "\"Allow sending image from camera\"";
+				INFOPLIST_KEY_NSMotionUsageDescription = "\"Allow sending IMU data\"";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -422,8 +439,12 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = WZJ5H2T2KL;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = sensorCollect/Info.plist;
+				INFOPLIST_KEY_NSCameraUsageDescription = "\"Allow sending image from camera\"";
+				INFOPLIST_KEY_NSMotionUsageDescription = "\"Allow sending IMU data\"";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
